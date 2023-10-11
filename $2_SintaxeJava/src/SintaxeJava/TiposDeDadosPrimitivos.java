@@ -8,7 +8,7 @@ public class TiposDeDadosPrimitivos {
 		// Inteiro: Bytes/bit 	Faixa de valores 
 		// byte		1/8 		de -128 a +127 
 		// short	2/19 		de -32.768 a +32.767 
-		// int 		4/32 		de -2.147.483.648 a -2.147.483.647 
+		// int 		4/32 		de -2.147.483.648 a +2.147.483.647 
 		// long 	8/64 		de ? até ? -> Pesquisa ai!
 		int varInt = 0; 
 		System.out.println(varInt);
