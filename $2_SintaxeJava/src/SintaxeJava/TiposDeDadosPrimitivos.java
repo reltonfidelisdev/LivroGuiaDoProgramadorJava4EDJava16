@@ -5,7 +5,7 @@ public class TiposDeDadosPrimitivos {
 	public static void main(String[] args) {
 
 		///
-		// Inteiro: Bytes/bit Faixa de valores 
+		// Inteiro: Bytes/bit 	Faixa de valores 
 		// byte		1/8 		de -128 a +127 
 		// short	2/19 		de -32.768 a +32.767 
 		// int 		4/32 		de -2.147.483.648 a -2.147.483.647 
