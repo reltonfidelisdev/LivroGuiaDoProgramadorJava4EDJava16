@@ -5,7 +5,7 @@ public class Comentarios {
 	public static void main(String[] args) {
 		
 		// Dentro dos programas é permitida a inclusão de comentários
-		// Eles são fragmentos de código que para registro de explicações
+		// Eles são fragmentos de código que servem para registro de explicações
 		// Anotações ou informações nesserárias a quem precisa mexer no código do programa
 		// Comentários são desconsiderados pelo compilador.
 		
