@@ -10,14 +10,18 @@ public class TiposDeDadosPrimitivos {
 		// short	2/19 		de -32.768 a +32.767 
 		// int 		4/32 		de -2.147.483.648 a -2.147.483.647 
 		// long 	8/64 		de ? até ? -> Pesquisa ai!
-		int varInt = 0; // In 
+		int varInt = 0; 
+		System.out.println(varInt);
 		long varLong = 7961L; // L ou l
+		System.out.println(varLong);
 
 		//	Real: 
 		//	float	4/32 		de IEEE 754 ±1,40129846432481707e-45 a 3,40282346638528860e+38 
 		//	double	8/64 		de IEEE 754 ±4,94065645841246544e-324 a 1,79769313486231570e+308
-		double	varDouble = 70.6754125;
-		float	varFloat = 2.7F;
+		double varDouble = 70.6754125;
+		System.out.println(varDouble);
+		float varFloat = 2.7F;
+		System.out.println(varFloat);
 			
 		// Caractere: char 2/16 de \u0000 a \uFFFF
 		// 
@@ -25,11 +29,11 @@ public class TiposDeDadosPrimitivos {
 		//	boolean 1/8 		true e false
 		//
 
-		byte	varByte = 127;
+		byte varByte = 127;
 		System.out.println(varByte);
 		
-		double	varShort = (short) 32.763;
-		System.out.println(varDouble);
+		short varShort = (short) 32.763;
+		System.out.println(varShort);
 		
 		// Para o tipo char, use sempre aspas simples
 		char varChar = 'A';
