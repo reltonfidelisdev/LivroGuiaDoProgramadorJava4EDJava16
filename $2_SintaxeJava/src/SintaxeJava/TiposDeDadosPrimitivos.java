@@ -9,7 +9,7 @@ public class TiposDeDadosPrimitivos {
 		 * 	byte		1/8				de -128 a +127
 		 * 	short		2/19			de -32.768 a +32.767
 		 * 	int			4/32			de -2.147.483.648 a -2.147.483.647 
-		 * 	long		8/64			
+		 * 	long		8/64			de ? até ? -> Pesquisa na internet
 		 *  
 		 *  Real:
 		 *  float		4/32			de IEEE 754 ±1,40129846432481707e-45 a 3,40282346638528860e+38
