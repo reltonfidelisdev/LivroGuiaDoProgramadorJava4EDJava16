@@ -62,10 +62,10 @@ public class TiposDeDadosPrimitivos {
 		//************************************************//
 		//
 		// \n	Pula linha			(new line ou linefeed)
-		// \r	Retorno de carro 	(carriage return)
+		// \r	Retorno de carro	(carriage return)
 		// \b	Retrocesso			(backspace)
 		// \t	Tabulação			(horizontal tabulation)
-		// \f	Nova página 		(formfeed)
+		// \f	Nova página			(formfeed)
 		// \'	Apóstrofe			(Aspas simples)
 		// \"	Aspas				(Aspas duplas)
 		// \`	Grave				(Acento grave)
