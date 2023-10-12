@@ -23,7 +23,8 @@ public class TiposDeDadosPrimitivos {
 		float varFloat = 2.7F;
 		System.out.println(varFloat);
 			
-		// Caractere: char 2/16 de \u0000 a \uFFFF
+		// Caractere: 
+		//	char 	2/16 		de \u0000 a \uFFFF
 		// 
 		// Lógico: 
 		//	boolean 1/8 		true e false
