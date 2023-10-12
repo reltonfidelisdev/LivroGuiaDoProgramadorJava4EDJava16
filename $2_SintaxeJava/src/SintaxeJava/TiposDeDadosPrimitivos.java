@@ -9,7 +9,7 @@ public class TiposDeDadosPrimitivos {
 		// byte		1/8 		de -128 a +127 
 		// short	2/19 		de -32.768 a +32.767 
 		// int 		4/32 		de -2.147.483.648 a +2.147.483.647 
-		// long 	8/64 		de ? até ? -> Pesquisa ai!
+		// long 	8/64 		de ? até ? -> Pesquisa ai! (-2^63 a 2^63-1)
 		int varInt = 0; 
 		System.out.println(varInt);
 		long varLong = 7961L; // L ou l
