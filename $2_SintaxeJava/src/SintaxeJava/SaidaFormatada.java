@@ -36,7 +36,7 @@ public class SaidaFormatada {
 		// Marcadores comuns são:
 		//	%d para inteiros
 		int inteiro = Integer.SIZE;
-		System.out.printf("O tamanho de um inteiro é : %d Bytes%n", inteiro);
+		System.out.printf("Um número inteiro : %d%n", inteiro);
 		
 		//	%f para reais de qualquer tipo
 		double pi = Math.PI;
