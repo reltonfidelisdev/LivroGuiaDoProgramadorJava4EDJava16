@@ -5,7 +5,7 @@ public class Variaveis {
 	public static void main(String[] args) {
 
 		/**
-		 * Uma variável é um nome definido pelo programador al qual se associa um valor
+		 * Uma variável é um nome definido pelo programador ao qual se associa um valor
 		 * que pertence a um tipo de dados particular, armazenados em um conjunto de
 		 * posições da memória do computador. O nome, ou identificador de variável, deve
 		 * descrever seu propósito e serve como representação simbólica do local da memória
