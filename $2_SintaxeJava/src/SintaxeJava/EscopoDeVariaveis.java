@@ -26,10 +26,10 @@ public class EscopoDeVariaveis {
 			System.out.println(i);
 			{
 				int z = 0;
-				System.out.println(i);
+				System.out.println(j);
 			}
 			//j = z; // z cannot be resolved to a variable
-			System.err.println(j);
+			//System.err.println(z);
 		}
 
 		//int x = i * j; // j cannot be resolved to a variable
