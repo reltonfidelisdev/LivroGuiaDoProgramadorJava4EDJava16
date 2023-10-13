@@ -28,7 +28,7 @@ public class EntradaSaidaSimples {
 		int valorDigitado = lerTeclado.nextInt();
 		System.out.println("Valor digitado: " + valorDigitado);
 		
-		lerTeclado.close(); // É importante fechar sempre o objeto leitor
+		lerTeclado.close(); // É importante fechar sempre o objeto leitor.
 	}
 
 }
