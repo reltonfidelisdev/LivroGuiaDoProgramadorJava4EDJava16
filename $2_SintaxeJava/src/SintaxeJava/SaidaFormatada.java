@@ -49,6 +49,9 @@ public class SaidaFormatada {
 		//	%s para String
 		String texto = "Um texto aqui";
 		System.out.printf("Aqui vai uma String: %s%n", texto);
+		
+		// %n quebra linha
+		// ...
 	}
 
 }
