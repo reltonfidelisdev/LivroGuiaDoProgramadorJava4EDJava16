@@ -1,5 +1,7 @@
 package SintaxeJava;
 
+import java.util.Scanner;
+
 public class SaidaFormatada {
 
 	public static void main(String[] args) {
@@ -52,6 +54,27 @@ public class SaidaFormatada {
 		
 		// %n quebra linha
 		// ...
+		
+		
+		System.out.println("Informe a velocidade máxima em Km: %n");
+		Scanner sc = new Scanner(System.in);
+		int velocidadeMaxima = sc.nextInt();
+		for(int i = 0; i <= velocidadeMaxima; i++) {
+			System.out.printf("Acelerando a %d Km por Hora.%n", i);
+			switch (i) {
+			case 100: {
+				System.err.printf("Velocidade excedida%n");
+				break;
+			}
+			case 150:{
+				System.err.printf("Velocidade acima da parmitida - Desligando o motor!%n");
+				System.exit(0);
+				break;
+			}
+			default:
+				//throw new IllegalArgumentException("Unexpected value: " + i);
+			}
+		}
 	}
 
 }
