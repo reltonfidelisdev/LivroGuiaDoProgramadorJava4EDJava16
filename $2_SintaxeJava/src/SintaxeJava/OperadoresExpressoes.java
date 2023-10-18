@@ -20,7 +20,7 @@ public class OperadoresExpressoes {
 		System.out.println(bFalse);
 		// Imprime false
 		boolean bValue = (bFalse = (1 + 2 == 3) ? true : false);
-		
+		// Imprime true
 		System.out.println(bValue);
 		
 	}
