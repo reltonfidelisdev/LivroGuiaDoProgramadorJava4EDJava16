@@ -113,12 +113,27 @@ public class TiposEstruturasControle {
 				nota[70] = 0; // java.lang.ArrayIndexOutOfBoundsException
 			}
 			catch(ArrayIndexOutOfBoundsException e) {
-			// é opcional	
+			// trata o erro ArrayIndexOutOfBoundsException
 				System.out.println("Deu erro ao tentar referenciar uma posição inexistente do vetor");
 				System.out.println(e);
 			} 
 			finally {
 				System.out.println("Sempre entra aqui no finaly");
+			}
+			
+			// Exemplo controle de erros com multi-catch
+			try {
+				int argumentos = Integer.parseInt(args[0]);
+				while(argumentos >= 0 ) {
+					System.out.println(argumentos);
+					argumentos++;
+				}
+			} catch (ArrayIndexOutOfBoundsException e1) {
+				// Trata erro ArrayIndexOutOfBoundsException
+				System.err.println("Não passou nenhum argumento");
+			} catch (NumberFormatException e2) {
+				// trata erro NumberFormatException 
+				System.out.println("Argumento deve ser um inteiro");
 			}
 			
 		/**
@@ -129,6 +144,8 @@ public class TiposEstruturasControle {
 		/**
 		 * Uso da diretiva continue
 		 */
+		
+			System.out.println("O programa foi executado até o final");
 
 	}
 
