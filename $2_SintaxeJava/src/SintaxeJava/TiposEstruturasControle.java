@@ -110,11 +110,11 @@ public class TiposEstruturasControle {
 				int []nota; // = new int[70]; 
 				nota = new int[70];
 				nota[3] = 5;
-				nota[70] = 0;
+				nota[70] = 0; // java.lang.ArrayIndexOutOfBoundsException
 			}
 			catch(ArrayIndexOutOfBoundsException e) {
 			// é opcional	
-				System.out.println("Deu erro ao tentar referenciar uma posição inexistente do array");
+				System.out.println("Deu erro ao tentar referenciar uma posição inexistente do vetor");
 				System.out.println(e);
 			} 
 			finally {
