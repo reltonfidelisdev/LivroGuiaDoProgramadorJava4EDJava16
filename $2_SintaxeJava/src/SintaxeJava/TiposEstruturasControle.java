@@ -126,7 +126,7 @@ public class TiposEstruturasControle {
 				int argumentos = Integer.parseInt(args[0]);
 				while(argumentos >= 0 ) {
 					System.out.println(argumentos);
-					argumentos++;
+					argumentos--;
 				}
 			} catch (ArrayIndexOutOfBoundsException e1) {
 				// Trata erro ArrayIndexOutOfBoundsException
