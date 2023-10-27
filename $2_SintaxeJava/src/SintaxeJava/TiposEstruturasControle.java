@@ -45,7 +45,7 @@ public class TiposEstruturasControle {
 			
 			// Exemplo diretiva for como while
 			System.out.println("Exemplo diretiva for como while: ");
-			int j = i;
+			int j = randomI.nextInt(5);
 			System.out.println("valor randomico: " + j);
 			for(; j >= 0;) {
 				System.out.println("for como while: " + j);		
