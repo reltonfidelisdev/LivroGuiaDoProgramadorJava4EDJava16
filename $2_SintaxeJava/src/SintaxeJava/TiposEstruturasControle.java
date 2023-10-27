@@ -9,7 +9,7 @@ public class TiposEstruturasControle {
 
 		/**
 		 * As linguagens de programação possuem estruturas diferentes para controlar
-		 * o fluxo de execução,, ou seja, há estruturas de controle destinadas à repetição e
+		 * o fluxo de execução, ou seja, há estruturas de controle destinadas à repetição e
 		 * outras que permitem desviar o fluxo de execução. Essas estruturas, cujo comportamento
 		 * esquemático podem ser divididos em:
 		 * 
