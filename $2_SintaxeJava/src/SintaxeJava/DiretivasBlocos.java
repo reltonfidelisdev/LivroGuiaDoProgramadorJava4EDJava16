@@ -4,9 +4,7 @@ import java.util.Locale;
 
 public class DiretivasBlocos {
 
-	 private static String diretivaUm(String var) {
-		return var.toUpperCase();
-	}
+
 	public static void main(String[] args) {
 
 		/**
